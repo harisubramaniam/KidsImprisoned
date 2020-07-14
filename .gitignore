@@ -1,0 +1,10 @@
+# Visual Studio cache directory
+/.vs/
+*.vscode
+
+# Ignore system generated files
+.DS_Store
+
+# All my test files
+
+# Test JS files
