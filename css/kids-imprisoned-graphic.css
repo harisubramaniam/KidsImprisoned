@@ -1,6 +1,14 @@
 @import 'https://code.highcharts.com/css/highcharts.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
 
+/* .highcharts-container {
+    overflow: visible !important;
+}
+
+.highcharts-container svg {
+    overflow: visible !important;
+} */
+
 .highcharts-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -60,4 +68,11 @@
 	min-width: 310px;
 	max-width: 750px;
 	margin: 0 auto;
+}
+
+.btn-primary {
+    color: #EFEFEF;
+    background-color: #738DA8;
+    border-color: #262B3f;
+    font-family: 'Montserrat';
 }

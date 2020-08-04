@@ -1,0 +1,352 @@
+[
+    {
+      "state-name": "Alabama",
+      "hc-key": "us-al",
+      "total-arrests": "3,578",
+      "juvenile-population": "4,887,871",
+      "value": 73
+    },
+    {
+      "state-name": "Alaska",
+      "hc-key": "us-ak",
+      "total-arrests": "1,687",
+      "juvenile-population": "737,438",
+      "value": 229
+    },
+    {
+      "state-name": "Arizona",
+      "hc-key": "us-az",
+      "total-arrests": "20,478",
+      "juvenile-population": "7,171,646",
+      "value": 286
+    },
+    {
+      "state-name": "Arkansas",
+      "hc-key": "us-ar",
+      "total-arrests": "7,697",
+      "juvenile-population": "3,013,825",
+      "value": 255
+    },
+    {
+      "state-name": "California",
+      "hc-key": "us-ca",
+      "total-arrests": "42,958",
+      "juvenile-population": "39,557,045",
+      "value": 109
+    },
+    {
+      "state-name": "Colorado",
+      "hc-key": "us-co",
+      "total-arrests": "17,906",
+      "juvenile-population": "5,695,564",
+      "value": 314
+    },
+    {
+      "state-name": "Connecticut",
+      "hc-key": "us-ct",
+      "total-arrests": "7,106",
+      "juvenile-population": "3,572,665",
+      "value": 199
+    },
+    {
+      "state-name": "Delaware",
+      "hc-key": "us-de",
+      "total-arrests": "2,851",
+      "juvenile-population": "967,171",
+      "value": 295
+    },
+    {
+      "state-name": "Florida",
+      "hc-key": "us-fl",
+      "total-arrests": "48,213",
+      "juvenile-population": "21,299,325",
+      "value": 226
+    },
+    {
+      "state-name": "Georgia",
+      "hc-key": "us-ga",
+      "total-arrests": "15,400",
+      "juvenile-population": "10,519,475",
+      "value": 146
+    },
+    {
+      "state-name": "Hawaii",
+      "hc-key": "us-hi",
+      "total-arrests": "1,762",
+      "juvenile-population": "1,420,491",
+      "value": 124
+    },
+    {
+      "state-name": "Idaho",
+      "hc-key": "us-id",
+      "total-arrests": "5,993",
+      "juvenile-population": "1,754,208",
+      "value": 342
+    },
+    {
+      "state-name": "Illinois",
+      "hc-key": "us-il",
+      "total-arrests": "7,366",
+      "juvenile-population": "12,741,080",
+      "value": 58
+    },
+    {
+      "state-name": "Indiana",
+      "hc-key": "us-in",
+      "total-arrests": "8,831",
+      "juvenile-population": "6,691,878",
+      "value": 132
+    },
+    {
+      "state-name": "Iowa",
+      "hc-key": "us-ia",
+      "total-arrests": "0",
+      "juvenile-population": "3,156,145",
+      "value": 0
+    },
+    {
+      "state-name": "Kansas",
+      "hc-key": "us-ks",
+      "total-arrests": "1,639",
+      "juvenile-population": "2,911,505",
+      "value": 56
+    },
+    {
+      "state-name": "Kentucky",
+      "hc-key": "us-ky",
+      "total-arrests": "2,985",
+      "juvenile-population": "4,468,402",
+      "value": 67
+    },
+    {
+      "state-name": "Louisiana",
+      "hc-key": "us-la",
+      "total-arrests": "16,533",
+      "juvenile-population": "4,659,978",
+      "value": 355
+    },
+    {
+      "state-name": "Maine",
+      "hc-key": "us-me",
+      "total-arrests": "2,845",
+      "juvenile-population": "1,338,404",
+      "value": 213
+    },
+    {
+      "state-name": "Maryland",
+      "hc-key": "us-md",
+      "total-arrests": "17,825",
+      "juvenile-population": "6,042,718",
+      "value": 295
+    },
+    {
+      "state-name": "Massachusetts",
+      "hc-key": "us-ma",
+      "total-arrests": "4,508",
+      "juvenile-population": "6,902,149",
+      "value": 65
+    },
+    {
+      "state-name": "Michigan",
+      "hc-key": "us-mi",
+      "total-arrests": "13,267",
+      "juvenile-population": "9,995,915",
+      "value": 133
+    },
+    {
+      "state-name": "Minnesota",
+      "hc-key": "us-mn",
+      "total-arrests": "19,391",
+      "juvenile-population": "5,611,179",
+      "value": 346
+    },
+    {
+      "state-name": "Mississippi",
+      "hc-key": "us-ms",
+      "total-arrests": "2,453",
+      "juvenile-population": "2,986,530",
+      "value": 82
+    },
+    {
+      "state-name": "Missouri",
+      "hc-key": "us-mo",
+      "total-arrests": "15,560",
+      "juvenile-population": "6,126,452",
+      "value": 254
+    },
+    {
+      "state-name": "Montana",
+      "hc-key": "us-mt",
+      "total-arrests": "3,722",
+      "juvenile-population": "1,062,305",
+      "value": 350
+    },
+    {
+      "state-name": "Nebraska",
+      "hc-key": "us-ne",
+      "total-arrests": "6,985",
+      "juvenile-population": "1,929,268",
+      "value": 362
+    },
+    {
+      "state-name": "Nevada",
+      "hc-key": "us-nv",
+      "total-arrests": "10,026",
+      "juvenile-population": "3,034,392",
+      "value": 330
+    },
+    {
+      "state-name": "New Hampshire",
+      "hc-key": "us-nh",
+      "total-arrests": "3,283",
+      "juvenile-population": "1,356,458",
+      "value": 242
+    },
+    {
+      "state-name": "New Jersey",
+      "hc-key": "us-nj",
+      "total-arrests": "11,513",
+      "juvenile-population": "8,908,520",
+      "value": 129
+    },
+    {
+      "state-name": "New Mexico",
+      "hc-key": "us-nm",
+      "total-arrests": "3,203",
+      "juvenile-population": "2,095,428",
+      "value": 153
+    },
+    {
+      "state-name": "New York",
+      "hc-key": "us-ny",
+      "total-arrests": "14,434",
+      "juvenile-population": "19,542,209",
+      "value": 74
+    },
+    {
+      "state-name": "North Carolina",
+      "hc-key": "us-nc",
+      "total-arrests": "11,088",
+      "juvenile-population": "10,383,620",
+      "value": 107
+    },
+    {
+      "state-name": "North Dakota",
+      "hc-key": "us-nd",
+      "total-arrests": "4,009",
+      "juvenile-population": "760,077",
+      "value": 527
+    },
+    {
+      "state-name": "Ohio",
+      "hc-key": "us-oh",
+      "total-arrests": "20,003",
+      "juvenile-population": "11,689,442",
+      "value": 171
+    },
+    {
+      "state-name": "Oklahoma",
+      "hc-key": "us-ok",
+      "total-arrests": "7,701",
+      "juvenile-population": "3,943,079",
+      "value": 195
+    },
+    {
+      "state-name": "Oregon",
+      "hc-key": "us-or",
+      "total-arrests": "8,618",
+      "juvenile-population": "4,190,713",
+      "value": 206
+    },
+    {
+      "state-name": "Pennsylvania ",
+      "hc-key": "us-pa",
+      "total-arrests": "36,034",
+      "juvenile-population": "12,807,060",
+      "value": 281
+    },
+    {
+      "state-name": "Rhode Island",
+      "hc-key": "us-ri",
+      "total-arrests": "2,373",
+      "juvenile-population": "1,057,315",
+      "value": 224
+    },
+    {
+      "state-name": "South Carolina",
+      "hc-key": "us-sc",
+      "total-arrests": "10,803",
+      "juvenile-population": "5,084,127",
+      "value": 212
+    },
+    {
+      "state-name": "South Dakota",
+      "hc-key": "us-sd",
+      "total-arrests": "4,886",
+      "juvenile-population": "882,235",
+      "value": 554
+    },
+    {
+      "state-name": "Tennessee",
+      "hc-key": "us-tn",
+      "total-arrests": "19,692",
+      "juvenile-population": "6,770,010",
+      "value": 291
+    },
+    {
+      "state-name": "Texas",
+      "hc-key": "us-tx",
+      "total-arrests": "55,458",
+      "juvenile-population": "28,701,845",
+      "value": 193
+    },
+    {
+      "state-name": "Utah",
+      "hc-key": "us-ut",
+      "total-arrests": "12,307",
+      "juvenile-population": "3,161,105",
+      "value": 389
+    },
+    {
+      "state-name": "Vermont",
+      "hc-key": "us-vt",
+      "total-arrests": "702",
+      "juvenile-population": "626,299",
+      "value": 112
+    },
+    {
+      "state-name": "Virginia",
+      "hc-key": "us-va",
+      "total-arrests": "15,864",
+      "juvenile-population": "8,517,685",
+      "value": 186
+    },
+    {
+      "state-name": "Washington",
+      "hc-key": "us-wa",
+      "total-arrests": "10,996",
+      "juvenile-population": "7,535,591",
+      "value": 146
+    },
+    {
+      "state-name": "West Virginia ",
+      "hc-key": "us-wv",
+      "total-arrests": "496",
+      "juvenile-population": "1,805,832",
+      "value": 27
+    },
+    {
+      "state-name": "Wisconsin",
+      "hc-key": "us-wi",
+      "total-arrests": "35,109",
+      "juvenile-population": "5,813,568",
+      "value": 604
+    },
+    {
+      "state-name": "Wyoming",
+      "hc-key": "us-wy",
+      "total-arrests": "3,191",
+      "juvenile-population": "577,737",
+      "value": 552
+    }
+]

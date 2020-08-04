@@ -1,0 +1,302 @@
+[
+    {
+      "state": "Alabama",
+      "hc-key": "us-al",
+      "total-detentions": "387",
+      "value": 62
+    },
+    {
+      "state": "Alaska",
+      "hc-key": "us-ak",
+      "total-detentions": "129",
+      "value": 95
+    },
+    {
+      "state": "Arizona",
+      "hc-key": "us-az",
+      "total-detentions": "207",
+      "value": 39
+    },
+    {
+      "state": "Arkansas",
+      "hc-key": "us-ar",
+      "total-detentions": "369",
+      "value": 65
+    },
+    {
+      "state": "California",
+      "hc-key": "us-ca",
+      "total-detentions": "2,727",
+      "value": 65
+    },
+    {
+      "state": "Colorado",
+      "hc-key": "us-co",
+      "total-detentions": "636",
+      "value": 62
+    },
+    {
+      "state": "Connecticut",
+      "hc-key": "us-ct",
+      "total-detentions": "51",
+      "value": 13
+    },
+    {
+      "state": "Delaware",
+      "hc-key": "us-de",
+      "total-detentions": "84",
+      "value": 48
+    },
+    {
+      "state": "Florida",
+      "hc-key": "us-fl",
+      "total-detentions": "1,755",
+      "value": 48
+    },
+    {
+      "state": "Georgia",
+      "hc-key": "us-ga",
+      "total-detentions": "519",
+      "value": 54
+    },
+    {
+      "state": "Hawaii",
+      "hc-key": "us-hi",
+      "total-detentions": "24",
+      "value": 28
+    },
+    {
+      "state": "Idaho",
+      "hc-key": "us-id",
+      "total-detentions": "321",
+      "value": 43
+    },
+    {
+      "state": "Illinois",
+      "hc-key": "us-il",
+      "total-detentions": "513",
+      "value": 41
+    },
+    {
+      "state": "Indiana",
+      "hc-key": "us-in",
+      "total-detentions": "735",
+      "value": 74
+    },
+    {
+      "state": "Iowa",
+      "hc-key": "us-ia",
+      "total-detentions": "381",
+      "value": 59
+    },
+    {
+      "state": "Kansas",
+      "hc-key": "us-ks",
+      "total-detentions": "207",
+      "value": 66
+    },
+    {
+      "state": "Kentucky",
+      "hc-key": "us-ky",
+      "total-detentions": "348",
+      "value": 35
+    },
+    {
+      "state": "Louisiana",
+      "hc-key": "us-la",
+      "total-detentions": "489",
+      "value": 62
+    },
+    {
+      "state": "Maine",
+      "hc-key": "us-me",
+      "total-detentions": "63",
+      "value": 25
+    },
+    {
+      "state": "Maryland",
+      "hc-key": "us-md",
+      "total-detentions": "210",
+      "value": 56
+    },
+    {
+      "state": "Massachusetts",
+      "hc-key": "us-ma",
+      "total-detentions": "168",
+      "value": 21
+    },
+    {
+      "state": "Michigan",
+      "hc-key": "us-mi",
+      "total-detentions": "939",
+      "value": 35
+    },
+    {
+      "state": "Minnesota",
+      "hc-key": "us-mn",
+      "total-detentions": "396",
+      "value": 38
+    },
+    {
+      "state": "Mississippi",
+      "hc-key": "us-ms",
+      "total-detentions": "111",
+      "value": 48
+    },
+    {
+      "state": "Missouri",
+      "hc-key": "us-mo",
+      "total-detentions": "594",
+      "value": 32
+    },
+    {
+      "state": "Montana",
+      "hc-key": "us-mt",
+      "total-detentions": "81",
+      "value": 91
+    },
+    {
+      "state": "Nebraska",
+      "hc-key": "us-ne",
+      "total-detentions": "324",
+      "value": 71
+    },
+    {
+      "state": "Nevada",
+      "hc-key": "us-nv",
+      "total-detentions": "339",
+      "value": 79
+    },
+    {
+      "state": "New Hampshire",
+      "hc-key": "us-nh",
+      "total-detentions": "54",
+      "value": 10
+    },
+    {
+      "state": "New Jersey",
+      "hc-key": "us-nj",
+      "total-detentions": "345",
+      "value": 26
+    },
+    {
+      "state": "New Mexico",
+      "hc-key": "us-nm",
+      "total-detentions": "174",
+      "value": 63
+    },
+    {
+      "state": "New York",
+      "hc-key": "us-ny",
+      "total-detentions": "681",
+      "value": 13
+    },
+    {
+      "state": "North Carolina",
+      "hc-key": "us-nc",
+      "total-detentions": "237",
+      "value": 16
+    },
+    {
+      "state": "North Dakota",
+      "hc-key": "us-nd",
+      "total-detentions": "81",
+      "value": 33
+    },
+    {
+      "state": "Ohio",
+      "hc-key": "us-oh",
+      "total-detentions": "1,185",
+      "value": 74
+    },
+    {
+      "state": "Oklahoma",
+      "hc-key": "us-ok",
+      "total-detentions": "186",
+      "value": 54
+    },
+    {
+      "state": "Oregon",
+      "hc-key": "us-or",
+      "total-detentions": "729",
+      "value": 40
+    },
+    {
+      "state": "Pennsylvania ",
+      "hc-key": "us-pa",
+      "total-detentions": "1,278",
+      "value": 40
+    },
+    {
+      "state": "Rhode Island",
+      "hc-key": "us-ri",
+      "total-detentions": "84",
+      "value": 34
+    },
+    {
+      "state": "South Carolina",
+      "hc-key": "us-sc",
+      "total-detentions": "411",
+      "value": 29
+    },
+    {
+      "state": "South Dakota",
+      "hc-key": "us-sd",
+      "total-detentions": "72",
+      "value": 84
+    },
+    {
+      "state": "Tennessee",
+      "hc-key": "us-tn",
+      "total-detentions": "225",
+      "value": 44
+    },
+    {
+      "state": "Texas",
+      "hc-key": "us-tx",
+      "total-detentions": "2,286",
+      "value": 54
+    },
+    {
+      "state": "Utah",
+      "hc-key": "us-ut",
+      "total-detentions": "159",
+      "value": 15
+    },
+    {
+      "state": "Vermont",
+      "hc-key": "us-vt",
+      "total-detentions": "12",
+      "value": 11
+    },
+    {
+      "state": "Virginia",
+      "hc-key": "us-va",
+      "total-detentions": "483",
+      "value": 66
+    },
+    {
+      "state": "Washington",
+      "hc-key": "us-wa",
+      "total-detentions": "579",
+      "value": 31
+    },
+    {
+      "state": "West Virginia ",
+      "hc-key": "us-wv",
+      "total-detentions": "351",
+      "value": 71
+    },
+    {
+      "state": "Wisconsin",
+      "hc-key": "us-wi",
+      "total-detentions": "465",
+      "value": 31
+    },
+    {
+      "state": "Wyoming",
+      "hc-key": "us-wy",
+      "total-detentions": "141",
+      "value": 69
+    }
+   ]

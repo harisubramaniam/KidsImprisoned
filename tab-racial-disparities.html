@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Racial and Ethnic Fairness | News21</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/kids-imprisoned-graphic.css">
+    <link rel="stylesheet" href="css/tab-nav.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/iframeResizer.contentWindow.min.js"></script>
+    <script src="js/jquery.appear.iframe.js"></script>
+</head>
+<body>
+
+    <div class="container-tab">
+        <!-- Nav Tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="arrest-tab" data-toggle="tab" href="#arrest-rates" role="tab" aria-controls="arrest-rates" aria-selected="true">Arrest Rates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="detention-tab" data-toggle="tab" href="#detention-rates" role="tab" aria-controls="detention-rates" aria-selected="false">Detention Rates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="placement-tab" data-toggle="tab" href="#placement-rates" role="tab" aria-controls="placement-rates" aria-selected="false">Residential Placement Rates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="commitment-tab" data-toggle="tab" href="#commitment-rates" role="tab" aria-controls="commitment-rates" aria-selected="false">Commitment Rates</a>
+            </li>
+        </ul>
+
+
+        <!-- Tab Panes -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="arrest-rates" role="tabpanel" aria-labelledby="arrest-tab">
+                <script src="js/arrest-rates.js"></script>
+            </div>
+            <div class="tab-pane fade" id="detention-rates" role="tabpanel" aria-labeledby="detention-tab">
+                <script src="js/detention-rates.js"></script>
+            </div>
+            <div class="tab-pane fade" id="placement-rates" role="tabpanel" aria-labeledby="placement-tab">
+                <script src="js/placement-rates.js"></script>
+            </div>
+            <div class="tab-pane fade" id="commitment-rates" role="tabpanel" aria-labeledby="commitment-tab">
+                <script src="js/commitment-rates.js"></script>
+            </div>
+        </div>
+    </div>
+    <script src="js/highcharts.js"></script>
+
+</body>
+</html>
