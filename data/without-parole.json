@@ -1,256 +1,256 @@
 [
     {
-        "state_name": "Alaska",
+        "name": "Alaska",
         "hc-key": "us-ak",
         "value": 3
     },
     {
-        "state_name": "Alabama",
+        "name": "Alabama",
         "hc-key": "us-al",
         "value": 2
     },
     {
-        "state_name": "Arkansas",
+        "name": "Arkansas",
         "hc-key": "us-ar",
         "value": 3
     },
     {
-        "state_name": "Arizona",
+        "name": "Arizona",
         "hc-key": "us-az",
         "value": 2
     },
     {
-        "state_name": "California",
+        "name": "California",
         "hc-key": "us-ca",
         "value": 3
     },
     {
-        "state_name": "Colorado",
+        "name": "Colorado",
         "hc-key": "us-co",
         "value": 4
     },
     {
-        "state_name": "Connecticut",
+        "name": "Connecticut",
         "hc-key": "us-ct",
         "value": 3
     },
     {
-        "state_name": "Washington D.C.",
+        "name": "Washington D.C.",
         "hc-key": "us-dc",
         "value": 3
     },
     {
-        "state_name": "Delaware",
+        "name": "Delaware",
         "hc-key": "us-de",
         "value": 3
     },
     {
-        "state_name": "Florida",
+        "name": "Florida",
         "hc-key": "us-fl",
         "value": 2
     },
     {
-        "state_name": "Georgia",
+        "name": "Georgia",
         "hc-key": "us-ga",
         "value": 2
     },
     {
-        "state_name": "Hawaii",
+        "name": "Hawaii",
         "hc-key": "us-hi",
         "value": 3
     },
     {
-        "state_name": "Iowa",
+        "name": "Iowa",
         "hc-key": "us-ia",
         "value": 3
     },
     {
-        "state_name": "Idaho",
+        "name": "Idaho",
         "hc-key": "us-id",
         "value": 2
     },
     {
-        "state_name": "Illinois",
+        "name": "Illinois",
         "hc-key": "us-il",
         "value": 2
     },
     {
-        "state_name": "Indiana",
+        "name": "Indiana",
         "hc-key": "us-in",
         "value": 2
     },
     {
-        "state_name": "Kansas",
+        "name": "Kansas",
         "hc-key": "us-ks",
         "value": 3
     },
     {
-        "state_name": "Kentucky",
+        "name": "Kentucky",
         "hc-key": "us-ky",
         "value": 4
     },
     {
-        "state_name": "Louisiana",
+        "name": "Louisiana",
         "hc-key": "us-la",
         "value": 2
     },
     {
-        "state_name": "Massachusetts",
+        "name": "Massachusetts",
         "hc-key": "us-ma",
         "value": 3
     },
     {
-        "state_name": "Maryland",
+        "name": "Maryland",
         "hc-key": "us-md",
         "value": 2
     },
     {
-        "state_name": "Maine",
+        "name": "Maine",
         "hc-key": "us-me",
         "value": 2
     },
     {
-        "state_name": "Michigan",
+        "name": "Michigan",
         "hc-key": "us-mi",
         "value": 2
     },
     {
-        "state_name": "Minnesota",
+        "name": "Minnesota",
         "hc-key": "us-mn",
         "value": 2
     },
     {
-        "state_name": "Missouri",
+        "name": "Missouri",
         "hc-key": "us-mo",
         "value": 1
     },
     {
-        "state_name": "Mississippi",
+        "name": "Mississippi",
         "hc-key": "us-ms",
         "value": 2
     },
     {
-        "state_name": "Montana",
+        "name": "Montana",
         "hc-key": "us-mt",
         "value": 2
     },
     {
-        "state_name": "North Carolina",
+        "name": "North Carolina",
         "hc-key": "us-nc",
         "value": 2
     },
     {
-        "state_name": "North Dakota",
+        "name": "North Dakota",
         "hc-key": "us-nd",
         "value": 4
     },
     {
-        "state_name": "Nebraska",
+        "name": "Nebraska",
         "hc-key": "us-ne",
         "value": 2
     },
     {
-        "state_name": "New Hampshire",
+        "name": "New Hampshire",
         "hc-key": "us-nh",
         "value": 2
     },
     {
-        "state_name": "New Jersey",
+        "name": "New Jersey",
         "hc-key": "us-nj",
         "value": 3
     },
     {
-        "state_name": "New Mexico",
+        "name": "New Mexico",
         "hc-key": "us-nm",
         "value": 1
     },
     {
-        "state_name": "Nevada",
+        "name": "Nevada",
         "hc-key": "us-nv",
         "value": 3
     },
     {
-        "state_name": "New York",
+        "name": "New York",
         "hc-key": "us-ny",
         "value": 1
     },
     {
-        "state_name": "Ohio",
+        "name": "Ohio",
         "hc-key": "us-oh",
         "value": 2
     },
     {
-        "state_name": "Oklahoma",
+        "name": "Oklahoma",
         "hc-key": "us-ok",
         "value": 2
     },
     {
-        "state_name": "Oregon",
+        "name": "Oregon",
         "hc-key": "us-or",
         "value": 3
     },
     {
-        "state_name": "Pennsylvania",
+        "name": "Pennsylvania",
         "hc-key": "us-pa",
         "value": 2
     },
     {
-        "state_name": "Rhode Island",
+        "name": "Rhode Island",
         "hc-key": "us-ri",
         "value": 1
     },
     {
-        "state_name": "South Carolina",
+        "name": "South Carolina",
         "hc-key": "us-sc",
         "value": 2
     },
     {
-        "state_name": "South Dakota",
+        "name": "South Dakota",
         "hc-key": "us-sd",
         "value": 4
     },
     {
-        "state_name": "Tennessee",
+        "name": "Tennessee",
         "hc-key": "us-tn",
         "value": 2
     },
     {
-        "state_name": "Texas",
+        "name": "Texas",
         "hc-key": "us-tx",
         "value": 4
     },
     {
-        "state_name": "Utah",
+        "name": "Utah",
         "hc-key": "us-ut",
         "value": 4
     },
     {
-        "state_name": "Virginia",
+        "name": "Virginia",
         "hc-key": "us-va",
         "value": 3
     },
     {
-        "state_name": "Vermont",
+        "name": "Vermont",
         "hc-key": "us-vt",
         "value": 3
     },
     {
-        "state_name": "Washington",
+        "name": "Washington",
         "hc-key": "us-wa",
         "value": 3
     },
     {
-        "state_name": "Wisconsin",
+        "name": "Wisconsin",
         "hc-key": "us-wi",
         "value": 2
     },
     {
-        "state_name": "West Virginia",
+        "name": "West Virginia",
         "hc-key": "us-wv",
         "value": 3
     },
     {
-        "state_name": "Wyoming",
+        "name": "Wyoming",
         "hc-key": "us-wy",
         "value": 3
     }

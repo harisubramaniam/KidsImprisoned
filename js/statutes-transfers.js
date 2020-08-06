@@ -261,7 +261,7 @@ $(function () {
                     enabled: true,
                     useHTML: true,
                     headerFormat: '',
-                    pointFormat: '<b>{point.state_name}</b><br />&#8226;&nbsp;Legislature:&nbsp;<b>{point.data-point}</b>'
+                    pointFormat: '<b>{point.state_name}</b><br />&#8226;&nbsp;Automatic Legislation:&nbsp;<b>{point.data-point}</b>'
                 },
                 colorAxis: {
                     dataClasses: [{
