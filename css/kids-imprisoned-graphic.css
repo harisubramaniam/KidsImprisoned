@@ -69,7 +69,9 @@
 	max-width: 750px;
 	margin: 0 auto;
 }
-
+a {
+    color: #2F313B;
+}
 .btn-primary {
     color: #EFEFEF;
     background-color: #738DA8;
