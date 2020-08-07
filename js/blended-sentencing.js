@@ -44,12 +44,6 @@ $(function () {
             "value": 1,
             "data-point": "Yes"
         },
-        // {
-        //     "state_name": "Washington D.C.",
-        //     "hc-key": "us-dc",
-        //     "value": 8,
-        //     "data-point": "No"
-        // },
         {
             "state_name": "Delaware",
             "hc-key": "us-de",
@@ -364,7 +358,7 @@ $(function () {
             }, {
                 from: 1,
                 to: 1,
-                color: 'rgba(161, 13, 3, .8)'
+                color: 'rgba(216, 66, 38, .9)'
             }]
         },
 
@@ -382,7 +376,7 @@ $(function () {
             name: 'Youth diagnosed with COVID',
             states: {
                 hover: {
-                    color: '#171717'
+                    color: 'rgba(216, 66, 38, .1)'
                 }
             },
             dataLabels: {

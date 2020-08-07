@@ -22,11 +22,17 @@ $(function (){
     Highcharts.mapChart('container', {
 
         chart: {
-            map: 'countries/us/us-all'
+            map: 'countries/us/us-all',
+            marginTop: 0,
+            marginBottom: 0,
+            spacingTop: 0
         },
 
         legend: {
-            enabled: false
+            // enabled: false
+            floating: false,
+            verticalAlign: 'bottom',
+            y: 20
         },
 
         title: {
@@ -46,23 +52,36 @@ $(function (){
             pointFormat: '<b>{point.facility_name}</b><br>{point.city}, {point.st} {point.zip}'
         },
 
+        plotOptions: {
+            series: {
+                enableMouseTracking: true
+            }
+        },
+
         series: [{
             // Use the us-all map with no data as a basemap
             name: 'Basemap',
-            borderColor: '#A0A0A0',
-            // nullColor: 'rgba(200, 200, 200, 0.3)',
-            showInLegend: false
+            // borderColor: '#232947',
+            showInLegend: false,
+            enableMouseTracking: false
         }, {
             name: 'Separators',
             type: 'mapline',
-            nullColor: '#707070',
+            // nullColor: '#D84226',
+            data: Highcharts.geojson(Highcharts.maps['countries/us/us-all'], 'mapline'),
             showInLegend: false,
             enableMouseTracking: false
         }, {
             // Specify points using lat/lon
             type: 'mappoint',
-            name: 'Cities',
-            color: Highcharts.getOptions().colors[1],
+            name: 'Sequel locations',
+            // color: Highcharts.getOptions().colors[1],
+            marker: {
+                symbol: 'triangle',
+                radius: 5
+            },
+            color: 'rgba(216, 66, 38, 1)',
+            showInLegend: true,
             data: [{
                 "facility_name": "Aaron School Elementary and Middle School",
                 "city": "New York",

@@ -50,8 +50,8 @@ $(function () {
         },
         
         tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            headerFormat: '<span style="font-size:12px"><b>{point.key}</b></span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}:&nbsp;</td>' +
                 '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
             footerFormat: '</table>',
             // shared: true,
@@ -75,12 +75,12 @@ $(function () {
         
         series: [{
             name: 'Justice facilities',
-            color: '#171717',
+            color: '#D84226',
             data: [48, 28, 8]
 
         }, {
             name: 'Public high schools',
-            color: '#A10D03',
+            color: '#232947',
             data: [84, 78, 60]
         }]
     });

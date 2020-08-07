@@ -240,7 +240,7 @@ $(function () {
         }, {
             "state_name": "Washington",
             "hc-key": "us-wa",
-            "value": 9,
+            "value": 2,
             "data-point": "8"
         }, {
             "state_name": "Wisconsin",
@@ -317,43 +317,39 @@ $(function () {
             dataClasses: [{
                 from: 0,
                 to: 0,
-                color: '#FFFFFF'
+                color: 'rgba(216, 66, 38, .1)'
             }, {
                 from: 1,
                 to: 1,
-                color: 'rgba(161, 13, 3, .1)'
+                color: 'rgba(216, 66, 38, .9)'
             }, {
                 from: 2,
                 to: 2,
-                color: 'rgba(161, 13, 3, .2)'
+                color: 'rgba(1216, 66, 38, .7)'
             }, {
                 from: 3,
                 to: 3,
-                color: 'rgba(161, 13, 3, .3)'
+                color: 'rgba(216, 66, 38, .6)'
             }, {
                 from: 4,
                 to: 4,
-                color: 'rgba(161, 13, 3, .4)'
+                color: 'rgba(216, 66, 38, .5)'
             }, {
                 from: 5,
                 to: 5,
-                color: 'rgba(161, 13, 3, .5)'
+                color: 'rgba(216, 66, 38, .4)'
             }, {
                 from: 6,
                 to: 6,
-                color: 'rgba(161, 13, 3, .6)'
+                color: 'rgba(216, 66, 38, .3)'
             }, {
                 from: 7,
                 to: 7,
-                color: 'rgba(161, 13, 3, .7)'
+                color: 'rgba(216, 66, 38, .2)'
             }, {
                 from: 8,
                 to: 8,
-                color: 'rgba(161, 13, 3, .8)'
-            }, {
-                from: 9,
-                to: 9,
-                color: 'rgba(161, 13, 3, .9)'
+                color: 'rgba(216, 66, 38, .1)'
             }]
         },
 
@@ -371,7 +367,7 @@ $(function () {
             name: 'Mental Health Screening',
             states: {
                 hover: {
-                    color: '#171717'
+                    color: 'rgba(216, 66, 38, .1)'
                 }
             },
             dataLabels: {

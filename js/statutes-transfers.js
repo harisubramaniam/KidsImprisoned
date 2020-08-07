@@ -59,7 +59,7 @@ $(function () {
                 }, {
                     from: 1,
                     to: 1,
-                    color: 'rgba(55, 191, 153, .8)'
+                    color: 'rgba(216, 66, 38, .8)'
                 }]
             },
             series: [{
@@ -69,7 +69,7 @@ $(function () {
                 name: 'Juvenile court judge',
                 states: {
                     hover: {
-                        color: '#9E2531'
+                        color: 'rgba(216, 66, 38, .3)'
                     }
                 },
                 dataLabels: {
@@ -129,7 +129,7 @@ $(function () {
                     }, {
                         from: 1,
                         to: 1,
-                        color: 'rgba(55, 191, 153, .8)'
+                        color: 'rgba(216, 66, 38, .8)'
                     }]
                 },
                 series: [{
@@ -139,7 +139,7 @@ $(function () {
                     name: 'Juvenile court judge',
                     states: {
                         hover: {
-                            color: '#9E2531'
+                            color: 'rgba(216, 66, 38, .3)'
                         }
                     },
                     dataLabels: {
@@ -200,7 +200,7 @@ $(function () {
                     }, {
                         from: 1,
                         to: 1,
-                        color: 'rgba(55, 191, 153, .8)'
+                        color: 'rgba(216, 66, 38, .8)'
                     }]
                 },
                 series: [{
@@ -210,7 +210,7 @@ $(function () {
                     name: 'Prosecutor',
                     states: {
                         hover: {
-                            color: '#9E2531'
+                            color: 'rgba(216, 66, 38, .3)'
                         }
                     },
                     dataLabels: {
@@ -271,7 +271,7 @@ $(function () {
                     }, {
                         from: 1,
                         to: 1,
-                        color: 'rgba(55, 191, 153, .8)'
+                        color: 'rgba(216, 66, 38, .8)'
                     }]
                 },
                 series: [{
@@ -281,7 +281,7 @@ $(function () {
                     name: 'Prosecutor',
                     states: {
                         hover: {
-                            color: '#9E2531'
+                            color: 'rgba(216, 66, 38, .3)'
                         }
                     },
                     dataLabels: {

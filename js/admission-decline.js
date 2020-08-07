@@ -74,7 +74,7 @@ $(function () {
         
         series: [{
             name: 'Number of youth admitted',
-            color: '#A10D03',
+            color: '#D84226',
             data: [210, 207, 148, 100]
         }]
     });

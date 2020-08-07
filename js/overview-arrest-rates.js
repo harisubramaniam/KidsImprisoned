@@ -36,7 +36,7 @@ $(function () {
                 margin: 0
             },
             subtitle: {
-                text: 'The United States has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
+                text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
                 floating: false
             },
             mapNavigation: {
@@ -49,7 +49,7 @@ $(function () {
                 enabled: true,
                 useHTML: true,
                 headerFormat: '',
-                pointFormat: '<b>{point.state-name}</b><br />&#8226;&nbsp;Juvenile arrest rate:&nbsp;{point.value}'
+                pointFormat: '<b>{point.state-name}</b><br />&#8226;&nbsp;Juvenile arrest rate:&nbsp;<b>{point.value}</b>'
             },
             colorAxis: {
                 dataClasses: [{
@@ -59,27 +59,27 @@ $(function () {
                 }, {
                     from: 100,
                     to: 199,
-                    color: 'rgba(161, 13, 3, .1)'
+                    color: 'rgba(216, 66, 38, .1)'
                 }, {
                     from: 200,
                     to: 299,
-                    color: 'rgba(161, 13, 3, .3)'
+                    color: 'rgba(216, 66, 38, .3)'
                 }, {
                     from: 300,
                     to: 399,
-                    color: 'rgba(161, 13, 3, .4)'
+                    color: 'rgba(216, 66, 38, .4)'
                 }, {
                     from: 400,
                     to: 499,
-                    color: 'rgba(161, 13, 3, .5)'
+                    color: 'rgba(216, 66, 38, .5)'
                 }, {
                     from: 500,
                     to: 599,
-                    color: 'rgba(161, 13, 3, .7)'
+                    color: 'rgba(216, 66, 38, .7)'
                 }, {
                     from: 600,
                     to: 699,
-                    color: 'rgba(161, 13, 3, .8)'
+                    color: 'rgba(216, 66, 38, .9)'
                 }]
             },
             series: [{
@@ -89,7 +89,7 @@ $(function () {
                 name: 'Arrest Rates',
                 states: {
                     hover: {
-                        color: '#9E2531'
+                        color: 'rgba(216, 66, 38, .1)'
                     }
                 },
                 dataLabels: {
@@ -126,7 +126,7 @@ $(function () {
                     margin: 0
                 },
                 subtitle: {
-                    text: 'The United States has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
+                    text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
                     floating: false
                 },
                 mapNavigation: {
@@ -139,7 +139,7 @@ $(function () {
                     enabled: true,
                     useHTML: true,
                     headerFormat: '',
-                    pointFormat: '<b>{point.state-name}</b><br />&#8226;&nbsp;Juvenile arrest rate:&nbsp;{point.value}'
+                    pointFormat: '<b>{point.state-name}</b><br />&#8226;&nbsp;Juvenile arrest rate:&nbsp;<b>{point.value}</b>'
                 },
                 colorAxis: {
                     dataClasses: [{
@@ -149,27 +149,27 @@ $(function () {
                     }, {
                         from: 100,
                         to: 199,
-                        color: 'rgba(161, 13, 3, .1)'
+                        color: 'rgba(216, 66, 38, .1)'
                     }, {
                         from: 200,
                         to: 299,
-                        color: 'rgba(161, 13, 3, .3)'
+                        color: 'rgba(216, 66, 38, .3)'
                     }, {
                         from: 300,
                         to: 399,
-                        color: 'rgba(161, 13, 3, .4)'
+                        color: 'rgba(216, 66, 38, .4)'
                     }, {
                         from: 400,
                         to: 499,
-                        color: 'rgba(161, 13, 3, .5)'
+                        color: 'rgba(216, 66, 38, .5)'
                     }, {
                         from: 500,
                         to: 599,
-                        color: 'rgba(161, 13, 3, .7)'
+                        color: 'rgba(216, 66, 38, .7)'
                     }, {
                         from: 600,
                         to: 699,
-                        color: 'rgba(161, 13, 3, .8)'
+                        color: 'rgba(216, 66, 38, .9)'
                     }]
                 },
                 series: [{
@@ -179,7 +179,7 @@ $(function () {
                     name: 'Arrest Rates',
                     states: {
                         hover: {
-                            color: '#9E2531'
+                            color: 'rgba(216, 66, 38, .1)'
                         }
                     },
                     dataLabels: {
@@ -216,7 +216,7 @@ $(function () {
                     margin: 0
                 },
                 subtitle: {
-                    text: 'The United States has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
+                    text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
                     floating: false
                 },
                 mapNavigation: {
@@ -229,7 +229,7 @@ $(function () {
                     enabled: true,
                     useHTML: true,
                     headerFormat: '',
-                    pointFormat: '<b>{point.state-name}</b><br />&#8226;&nbsp;Juvenile detention rate:&nbsp;{point.value}'
+                    pointFormat: '<b>{point.state-name}</b><br />&#8226;&nbsp;Juvenile detention rate:&nbsp;<b>{point.value}</b>'
                 },
                 colorAxis: {
                     dataClasses: [{
@@ -239,27 +239,27 @@ $(function () {
                     }, {
                         from: 10,
                         to: 29,
-                        color: 'rgba(161, 13, 3, .1)'
+                        color: 'rgba(216, 66, 38, .1)'
                     }, {
                         from: 30,
                         to: 49,
-                        color: 'rgba(161, 13, 3, .3)'
+                        color: 'rgba(216, 66, 38, .3)'
                     }, {
                         from: 50,
                         to: 59,
-                        color: 'rgba(161, 13, 3, .4)'
+                        color: 'rgba(216, 66, 38, .4)'
                     }, {
                         from: 60,
                         to: 79,
-                        color: 'rgba(161, 13, 3, .5)'
+                        color: 'rgba(216, 66, 38, .5)'
                     }, {
                         from: 80,
                         to: 89,
-                        color: 'rgba(161, 13, 3, .7)'
+                        color: 'rgba(216, 66, 38, .7)'
                     }, {
                         from: 90,
                         to: 109,
-                        color: 'rgba(161, 13, 3, .8)'
+                        color: 'rgba(216, 66, 38, .9)'
                     }]
                 },
                 series: [{
@@ -269,7 +269,7 @@ $(function () {
                     name: 'Arrest Rates',
                     states: {
                         hover: {
-                            color: '#9E2531'
+                            color: 'rgba(216, 66, 38, .1)'
                         }
                     },
                     dataLabels: {

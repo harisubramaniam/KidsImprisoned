@@ -58,8 +58,8 @@ $(function () {
         },
         
         tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            headerFormat: '<span style="font-size:12px"><b>{point.key}</b></span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}:&nbsp;</td>' +
                 '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
             footerFormat: '</table>',
             // shared: true,
@@ -83,7 +83,7 @@ $(function () {
         
         series: [{
             name: 'Disparity',
-            color: '#A10D03',
+            color: '#D84226',
             data: [3.03, 1.80, 2.57, 2.75, 2.15, 1.76, 4.86, 3.08, 1.50, 2.28, 2.44]
 
         }]

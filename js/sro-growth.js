@@ -6,8 +6,6 @@ $(function () {
                 fontFamily: 'Montserrat'
                 // fontWeight: 400
             },
-            // styledMode: true,
-            // spacingLeft: 0
             // backgroundColor: '#EFEEE8'
         },
         lang: {
@@ -53,14 +51,13 @@ $(function () {
         
             plotLines: [{
                 value: 0,
-                width: 1,
-                color: '#808080'
+                width: 2,
+                color: '#ABAAA7'
             }]
         },
 
         tooltip: {
             headerFormat: '<b>{point.x}</b><br>',
-            valueSuffix: '',
             valueDecimals: 0
         },
 
@@ -83,15 +80,56 @@ $(function () {
         },
 
         series: [{
-            name: 'Number of schools',
-            color: '#5383D1',
+            name: 'Number of schools with public resource officers',
+            color: '#232947',
             lineWidth: 3.5,
             marker: {
-                symbol: 'circle',
+                symbol: 'triangle',
                 radius: 3
             },
-            data: [26000, 26900, 29400, 25700, 35100, 42100]
+            data: [{
+                y: 26000,
+                marker: {
+                    symbol: 'diamond',
+                    radius: 3,
+                    fillColor: '#D84226'
+                }
+            }, {
+                y: 26900,
+                marker: {
+                    symbol: 'diamond',
+                    radius: 3,
+                    fillColor: '#D84226'
+                }
+            }, {
+                y: 29400,
+                marker: {
+                    symbol: 'diamond',
+                    radius: 3,
+                    fillColor: '#D84226'
+                }
+            }, {
+                y: 25700,
+                marker: {
+                    symbol: 'diamond',
+                    radius: 3,
+                    fillColor: '#D84226'
+                }
+            }, {
+                y: 35100,
+                marker: {
+                    symbol: 'diamond',
+                    radius: 3,
+                    fillColor: '#D84226'
+                }
+            }, {
+                y: 42100,
+                marker: {
+                    symbol: 'diamond',
+                    radius: 3,
+                    fillColor: '#D84226'
+                }
+            }]
         }]
     });
-
   });

@@ -61,7 +61,7 @@ $(function () {
             plotLines: [{
                 value: 0,
                 width: 5,
-                color: '#808080'
+                color: '#ABAAA7'
             }]
         },
 
@@ -81,28 +81,34 @@ $(function () {
 
         series: [{
             name: 'White',
-            color: '#214573',
+            color: '#2F313B',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'diamond',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [201,208,208,189,170,157,128,112,100,86,83]
         },
         {
             name: 'Minority',
-            color: '#FF6666',
+            color: '#232947',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'triangle',
+                radius: 3,
+                fillColor: '#D84226'
         },
             data: [661,630,553,488,464,436,354,306,266,233,201]
         }, 
         {
             name: 'Black',
-            color: '#6bb6ff',
+            color: '#D84226',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'triangle-down',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [968,937,857,742,743,714,606,520,464,433,383]
         }, 
@@ -111,7 +117,9 @@ $(function () {
             color: '#C06C84',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'circle',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [490,542,556,468,476,416,369,361,334,261,235]
         }, 
@@ -120,7 +128,9 @@ $(function () {
             color: '#FF8F00',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'square',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [468,435,360,335,309,284,228,202,173,142,118]
         }]

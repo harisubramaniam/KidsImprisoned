@@ -60,7 +60,7 @@ $(function () {
             plotLines: [{
                 value: 0,
                 width: 5,
-                color: '#808080'
+                color: '#ABAAA7'
             }]
         },
 
@@ -80,28 +80,34 @@ $(function () {
 
         series: [{
             name: 'White',
-            color: '#214573',
+            color: '#2F313B',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'diamond',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [143, 151, 154, 140, 124, 114, 92, 80, 69, 60, 55]
         },
         {
             name: 'Minority',
-            color: '#FF6666',
+            color: '#232947',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'triangle',
+                radius: 3,
+                fillColor: '#D84226'
         },
             data: [477, 456, 401, 341, 314, 297, 236, 204, 171, 149, 121]
         }, 
         {
             name: 'Black',
-            color: '#6bb6ff',
+            color: '#D84226',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'triangle-down',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [696, 672, 631, 519, 502, 482, 407, 347, 294, 275, 226]
         }, 
@@ -110,7 +116,9 @@ $(function () {
             color: '#C06C84',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'circle',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [346, 415, 438, 354, 353, 317, 269, 268, 254, 185, 149]
         }, 
@@ -119,7 +127,9 @@ $(function () {
             color: '#FF8F00',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'square',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [338, 316, 250, 230, 207, 192, 147, 133, 111, 89, 71]
         }]

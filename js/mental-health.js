@@ -371,31 +371,13 @@ $(function () {
             }, {
                 from: 1,
                 to: 1,
-                color: 'rgba(161, 13, 3, .1)'
+                color: 'rgba(216, 66, 38, .1)'
             },
-            // , {
-            //     from: 26,
-            //     to: 50,
-            //     color: 'rgba(161, 13, 3, .3)'
-            // },
             {
                 from: 2,
                 to: 2,
-                color: 'rgba(161, 13, 3, .4)'
+                color: 'rgba(216, 66, 38, .8)'
             }]
-            // , {
-            //     from: 76,
-            //     to: 100,
-            //     color: 'rgba(161, 13, 3, .5)'
-            // }, {
-            //     from: 101,
-            //     to: 200,
-            //     color: 'rgba(161, 13, 3, .7)'
-            // }, {
-            //     from: 201,
-            //     to: 300,
-            //     color: 'rgba(161, 13, 3, .8)'
-            // }]
         },
 
         tooltip: {
@@ -412,7 +394,7 @@ $(function () {
             name: 'Mental Health Screening',
             states: {
                 hover: {
-                    color: '#171717'
+                    color: '#2F313B'
                 }
             },
             dataLabels: {

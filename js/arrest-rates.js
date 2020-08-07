@@ -13,7 +13,7 @@ $(function () {
             thousandsSep: ','
         },
         credits: {
-            enabled: true,
+            enabled: false,
             text: 'U.S. Deparmentt of Justice, OJJDP',
             href: 'https://www.ojjdp.gov/ojstatbb/special_topics/qa11502.asp?qaDate=2018',
             position: {
@@ -32,7 +32,7 @@ $(function () {
             style: {
                 fontFamily: 'Montserrat',
                 fontWeight: '400',
-                fontSize: '1.10rem'
+                fontSize: '1.30rem'
                 // fontWeight: 'normal'
             },
             text: 'Juvenile arrest rates (per 100,000) by race, 1998-2018',
@@ -60,49 +60,65 @@ $(function () {
             min: 0, 
             plotLines: [{
                 value: 0,
-                width: 5,
-                color: '#808080'
+                width: 1,
+                color: '#ABAAA7'
             }]
         },
 
         tooltip: {
             headerFormat: '<b>{point.x}</b><br>',
             valueSuffix: '',
-            valueDecimals: 0
+            valueDecimals: 2
         },
 
         plotOptions: {
+            spline: {
+                marker: {
+                    enabled: true
+                }
+            },
             series: {
                 animation: {
                     duration: 2000
+                },
+                events: {
+                    legendItemClick: function() {
+                        return false;
+                    }
                 }
             }
         },
 
         series: [{
             name: 'White',
-            color: '#214573',
+            color: '#2F313B',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'diamond',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [6784.50,6213.20,5993.60,5665.10,5732,5521.30,5420.80,5197.80,5371.80,5270.30,5123.60,4644.20,4242.90,3787.30,3362.70,2706.40,2548.90,2302.60,2112.70,1981.60,1792.70]
         },
         {
             name: 'Minority',
-            color: '#FF6666',
+            color: '#232947',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'triangle',
+                radius: 3,
+                fillColor: '#D84226'
         },
             data: [10344.60,9258.10,8754.20,8538.70,8342.30,8305.70,8224.10,8500,8603.10,8524.40,8307.60,7742.80,6954.90,6335.70,5903.10,5028.50,4782.60,4252,3999.20,3792.30,3365.30]
         }, 
         {
             name: 'Black',
-            color: '#6bb6ff',
+            color: '#D84226',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'triangle-down',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [12673.70,11293.10,10738.60,10573.30,10255.70,10287.40,10278,10745.50,10954.20,10920.50,10755.20,10100.80,9137.10,8375.60,7817.10,6798.10,6537.50,5752.70,5447.90,5149.60,4618.30]
         }, 
@@ -111,7 +127,9 @@ $(function () {
             color: '#C06C84',
             marker: {
                 enabled: true,
-                radius: 2
+                symbol: 'circle',
+                radius: 3,
+                fillColor: '#D84226'
             },
             data: [6562.60,6344.30,5687,5028.20,5266,4935.60,4630.20,4683.90,4397.10,4307.30,3826.80,3665.80,3348.30,3297.90,3053.20,2682.60,2371.40,2605.80,2405.80,2727.50,2251.20]
         }]

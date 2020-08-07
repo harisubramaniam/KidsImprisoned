@@ -40,8 +40,14 @@ $(function () {
                 margin: 0
             },
 
+            plotOptions: {
+                series: {
+                    enableMouseTracking: false
+                }
+            },
+
             mapNavigation: {
-                enabled: true,
+                enabled: false,
                 buttonOptions: {
                     verticalAlign: 'top'
                 }
@@ -87,7 +93,7 @@ $(function () {
 
             tooltip: {
                 enabled: false,
-                useHTML: true,
+                useHTML: false,
                 headerFormat: '',
                 pointFormat: "<b>{point.state_name}</b><br />&#8226; Parole: <b>{point.value}</b>"
             },

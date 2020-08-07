@@ -316,31 +316,31 @@ $(function () {
             dataClasses: [{
                 from: 0,
                 to: 10,
-                color: '#FFFFFF'
+                color: 'rgba(216, 66, 38, .1)'
             }, {
                 from: 11,
                 to: 21,
-                color: 'rgba(161, 13, 3, .1)'
+                color: 'rgba(216, 66, 38, .1)'
             }, {
                 from: 22,
                 to: 33,
-                color: 'rgba(161, 13, 3, .3)'
+                color: 'rgba(216, 66, 38, .3)'
             }, {
                 from: 34,
                 to: 45,
-                color: 'rgba(161, 13, 3, .4)'
+                color: 'rgba(216, 66, 38, .4)'
             }, {
                 from: 46,
                 to: 60,
-                color: 'rgba(161, 13, 3, .5)'
+                color: 'rgba(216, 66, 38, .5)'
             }, {
                 from: 61,
                 to: 80,
-                color: 'rgba(161, 13, 3, .7)'
+                color: 'rgba(216, 66, 38, .7)'
             }, {
                 from: 81,
                 to: 150,
-                color: 'rgba(161, 13, 3, .8)'
+                color: 'rgba(216, 66, 38, .9)'
             }]
         },
 
@@ -358,7 +358,7 @@ $(function () {
             name: 'Mental Health Screening',
             states: {
                 hover: {
-                    color: '#171717'
+                    color: '#ABAAA7'
                 }
             },
             dataLabels: {

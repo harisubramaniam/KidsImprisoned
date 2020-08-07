@@ -6,7 +6,8 @@ $(function () {
                 fontWeight: 400
             },
             lang: {
-                thousandsSep: ','
+                thousandsSep: ',',
+                noData: 'Not available'
             }
         }
     })
@@ -54,8 +55,8 @@ $(function () {
         },
         
         tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            headerFormat: '<span style="font-size:12px"><b>{point.key}</b></span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}:&nbsp;</td>' +
                 '<td style="padding:0"><b>{point.y:.1f} </b></td></tr>',
             footerFormat: '</table>',
             // shared: true,
@@ -79,11 +80,11 @@ $(function () {
         
         series: [{
             name: '1999-2000',
-            color: '171717',
+            color: '#232947',
             data: [84, 8, 6, 'NA', 'NA', 1, 'NA']
         }, {
             name: '2017-18',
-            color: '#A10D03',
+            color: '#D84226',
             data: [79, 7, 9, 2, '#', 1, 2]
         }]
     });

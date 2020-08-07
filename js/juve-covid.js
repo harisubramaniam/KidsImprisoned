@@ -25,22 +25,22 @@ $(function () {
         {
             "state_name": "California",
             "hc-key": "us-ca",
-            "value": 63
+            "value": 123
         },
         {
             "state_name": "Colorado",
             "hc-key": "us-co",
-            "value": 7
+            "value": 11
         },
         {
             "state_name": "Connecticut",
             "hc-key": "us-ct",
-            "value": 8
+            "value": 9
         },
         {
             "state_name": "Washington D.C.",
             "hc-key": "us-dc",
-            "value": 8
+            "value": 10
         },
         {
             "state_name": "Delaware",
@@ -50,12 +50,12 @@ $(function () {
         {
             "state_name": "Florida",
             "hc-key": "us-fl",
-            "value": 159
+            "value": 311
         },
         {
             "state_name": "Georgia",
             "hc-key": "us-ga",
-            "value": 66
+            "value": 71
         },
         {
             "state_name": "Hawaii",
@@ -65,7 +65,7 @@ $(function () {
         {
             "state_name": "Iowa",
             "hc-key": "us-ia",
-            "value": 0
+            "value": 12
         },
         {
             "state_name": "Idaho",
@@ -75,7 +75,7 @@ $(function () {
         {
             "state_name": "Illinois",
             "hc-key": "us-il",
-            "value": 31
+            "value": 44
         },
         {
             "state_name": "Indiana",
@@ -105,7 +105,7 @@ $(function () {
         {
             "state_name": "Maryland",
             "hc-key": "us-md",
-            "value": 38
+            "value": 42
         },
         {
             "state_name": "Maine",
@@ -125,7 +125,7 @@ $(function () {
         {
             "state_name": "Missouri",
             "hc-key": "us-mo",
-            "value": 53
+            "value": 54
         },
         {
             "state_name": "Mississippi",
@@ -140,7 +140,7 @@ $(function () {
         {
             "state_name": "North Carolina",
             "hc-key": "us-nc",
-            "value": 0
+            "value": 1
         },
         {
             "state_name": "North Dakota",
@@ -165,7 +165,7 @@ $(function () {
         {
             "state_name": "New Mexico",
             "hc-key": "us-nm",
-            "value": 1
+            "value": 4
         },
         {
             "state_name": "Nevada",
@@ -205,7 +205,7 @@ $(function () {
         {
             "state_name": "South Carolina",
             "hc-key": "us-sc",
-            "value": 9
+            "value": 20
         },
         {
             "state_name": "South Dakota",
@@ -215,22 +215,22 @@ $(function () {
         {
             "state_name": "Tennessee",
             "hc-key": "us-tn",
-            "value": 93
+            "value": 117
         },
         {
             "state_name": "Texas",
             "hc-key": "us-tx",
-            "value": 211
+            "value": 261
         },
         {
             "state_name": "Utah",
             "hc-key": "us-ut",
-            "value": 10
+            "value": 8
         },
         {
             "state_name": "Virginia",
             "hc-key": "us-va",
-            "value": 35
+            "value": 37
         },
         {
             "state_name": "Vermont",
@@ -308,32 +308,36 @@ $(function () {
         colorAxis: {
             dataClasses: [{
                 from: 0,
-                to: 5,
+                to: 0,
                 color: '#FFFFFF'
+            }, {
+                from: 1,
+                to: 5,
+                color: 'rgba(216, 66, 38, .1)'
             }, {
                 from: 6,
                 to: 25,
-                color: 'rgba(161, 13, 3, .1)'
+                color: 'rgba(216, 66, 38, .2)'
             }, {
                 from: 26,
                 to: 50,
-                color: 'rgba(161, 13, 3, .3)'
+                color: 'rgba(216, 66, 38, .3)'
             }, {
                 from: 51,
                 to: 75,
-                color: 'rgba(161, 13, 3, .4)'
+                color: 'rgba(216, 66, 38, .4)'
             }, {
                 from: 76,
                 to: 100,
-                color: 'rgba(161, 13, 3, .5)'
+                color: 'rgba(216, 66, 38, .5)'
             }, {
                 from: 101,
                 to: 200,
-                color: 'rgba(161, 13, 3, .7)'
+                color: 'rgba(216, 66, 38, .7)'
             }, {
                 from: 201,
-                to: 300,
-                color: 'rgba(161, 13, 3, .8)'
+                to: 315,
+                color: 'rgba(216, 66, 38, .9)'
             }]
         },
 
@@ -351,7 +355,7 @@ $(function () {
             name: 'Youth diagnosed with COVID',
             states: {
                 hover: {
-                    color: '#171717'
+                    color: 'rgba(216, 66, 38, .1)'
                 }
             },
             dataLabels: {

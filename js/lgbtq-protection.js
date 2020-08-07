@@ -44,12 +44,6 @@ $(function () {
             "value": 1,
             "data-point": "&#8226;&nbsp;Nondiscrimination policy protecting LGBTQ youth"
         },
-        // {
-        //     "state_name": "Washington D.C.",
-        //     "hc-key": "us-dc",
-        //     "value": 8,
-        //     "data-point": ""
-        // },
         {
             "state_name": "Delaware",
             "hc-key": "us-de",
@@ -364,31 +358,31 @@ $(function () {
             }, {
                 from: 1,
                 to: 1,
-                color: 'rgba(227, 190, 250, 1)'
+                color: 'rgba(227, 190, 250, .8)'
             }, {
                 from: 2,
                 to: 2,
-                color: 'rgba(215, 150, 255, 1)'
+                color: 'rgba(215, 150, 255, .8)'
             }, {
                 from: 3,
                 to: 3,
-                color: 'rgba(186, 74, 255, 1)'
+                color: 'rgba(186, 74, 255, .8)'
             }, {
                 from: 4,
                 to: 4,
-                color: 'rgba(148, 59, 204, 1)'
+                color: 'rgba(148, 59, 204, .7)'
             }, {
                 from: 5,
                 to: 5,
-                color: 'rgba(121, 48, 166, 1)'
+                color: 'rgba(121, 48, 166, .8)'
             }, {
                 from: 6,
                 to: 6,
-                color: 'rgba(80, 32, 110, 1)'
+                color: 'rgba(80, 32, 110, .8)'
             }, {
                 from: 7,
                 to: 7,
-                color: 'rgba(41, 16, 56, 1)'
+                color: 'rgba(41, 16, 56, .8)'
             }]
         },
 
