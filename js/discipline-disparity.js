@@ -53,17 +53,14 @@ $(function () {
         yAxis: {
             min: 0,
             title: {
-                text: 'Percent'
+                text: 'Difference between Black and White suspension rates'
             }
         },
         
         tooltip: {
-            headerFormat: '<span style="font-size:12px"><b>{point.key}</b></span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}:&nbsp;</td>' +
-                '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
-            footerFormat: '</table>',
-            // shared: true,
-            useHTML: true
+            formatter: function (){
+                return '<b>' + this.x + '</b><br />\u25CF Disparity rate: <b>' + this.y + '</b><br />\u25CF Enrollment: <b>'+ this.point.totEnrollment + '</b>';
+            }
         },
         
         plotOptions: {
@@ -82,10 +79,42 @@ $(function () {
         },
         
         series: [{
-            name: 'Disparity',
+            name: 'Disparity rates',
             color: '#D84226',
-            data: [3.03, 1.80, 2.57, 2.75, 2.15, 1.76, 4.86, 3.08, 1.50, 2.28, 2.44]
-
+            data: [{
+                y: 3.62,
+                totEnrollment: '6,329,883'
+            }, {
+                y: 2.11,
+                totEnrollment: '2,846,857'
+            }, {
+                y: 5.01,
+                totEnrollment: '5,431,910'
+            }, {
+                y: 5.42,
+                totEnrollment: '1,900,519'
+            }, {
+                y: 3.85,
+                totEnrollment: '1,533,022'
+            }, {
+                y: 3.00,
+                totEnrollment: '1,126,501'
+            }, {
+                y: 10.11,
+                totEnrollment: '858,833'
+            }, {
+                y: 4.21,
+                totEnrollment: '646,766'
+            }, {
+                y: 2.41,
+                totEnrollment: '717,109'
+            }, {
+                y: 3.14,
+                totEnrollment: '911,536'
+            }, {
+                y: 4.09,
+                totEnrollment: '1,290,513'
+            }]
         }]
     });
 });

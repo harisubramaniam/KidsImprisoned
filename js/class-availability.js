@@ -45,7 +45,7 @@ $(function () {
         yAxis: {
             min: 0,
             title: {
-                text: 'Percentage of facilities offering'
+                text: 'Percentage of schools offering'
             }
         },
         
@@ -74,7 +74,7 @@ $(function () {
         },
         
         series: [{
-            name: 'Justice facilities',
+            name: 'Juvenile facilities',
             color: '#D84226',
             data: [48, 28, 8]
 

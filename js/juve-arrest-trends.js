@@ -51,7 +51,7 @@ $(function () {
 
         yAxis: {
             title: {
-                text: 'Rate'
+                text: 'Arrests per 100,000 persons ages 10-17'
             },
             min: 0, 
         
@@ -63,6 +63,7 @@ $(function () {
         },
 
         tooltip: {
+            headerFormat: '<b>{point.x}</b><br>',
             valueSuffix: '',
             valueDecimals: 2
         },

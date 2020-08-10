@@ -4,7 +4,6 @@ $(function () {
         chart: {
             style: {
                 fontFamily: 'Montserrat'
-                // fontWeight: 400
             },
             // backgroundColor: '#EFEEE8'
         },
@@ -37,7 +36,16 @@ $(function () {
         },
   
         xAxis: {
-            categories: ['2003-04', '2005-06', '2007', '2009', '2015', '2017'],
+            // categories: ['2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2015', '2017'],
+            type: 'datetime',
+            endOnTick: true,
+            showFirstLabel: true,
+            showLastLabel: true,
+            startOnTick: true,
+            dateTimeLabelFormats: {
+                year: '%Y'
+
+            }
         },
 
         yAxis: {
@@ -47,7 +55,7 @@ $(function () {
             title: {
                 text: 'Number of public schools'
             },
-            min: 22500, 
+            min: 20000, 
         
             plotLines: [{
                 value: 0,
@@ -57,7 +65,8 @@ $(function () {
         },
 
         tooltip: {
-            headerFormat: '<b>{point.x}</b><br>',
+            xDateFormat: '<b>%Y</b>',
+            pointFormat: 'Number of schools with police: <b>{point.y}</b>',
             valueDecimals: 0
         },
 
@@ -80,56 +89,26 @@ $(function () {
         },
 
         series: [{
-            name: 'Number of schools with public resource officers',
+            name: 'Number of schools with police',
             color: '#232947',
+            pointStart: Date.UTC(2003, 0, 1),
+            pointInterval: 365 * 24 * 3600 * 1000,
+
             lineWidth: 3.5,
             marker: {
-                symbol: 'triangle',
-                radius: 3
+                symbol: 'diamond',
+                radius: 5,
+                fillColor: '#D84226'
             },
-            data: [{
-                y: 26000,
-                marker: {
-                    symbol: 'diamond',
-                    radius: 3,
-                    fillColor: '#D84226'
-                }
-            }, {
-                y: 26900,
-                marker: {
-                    symbol: 'diamond',
-                    radius: 3,
-                    fillColor: '#D84226'
-                }
-            }, {
-                y: 29400,
-                marker: {
-                    symbol: 'diamond',
-                    radius: 3,
-                    fillColor: '#D84226'
-                }
-            }, {
-                y: 25700,
-                marker: {
-                    symbol: 'diamond',
-                    radius: 3,
-                    fillColor: '#D84226'
-                }
-            }, {
-                y: 35100,
-                marker: {
-                    symbol: 'diamond',
-                    radius: 3,
-                    fillColor: '#D84226'
-                }
-            }, {
-                y: 42100,
-                marker: {
-                    symbol: 'diamond',
-                    radius: 3,
-                    fillColor: '#D84226'
-                }
-            }]
+
+            data: [
+                [Date.UTC(2003), 26000],
+                [Date.UTC(2005), 26900],
+                [Date.UTC(2007), 29400],
+                [Date.UTC(2009), 25700],
+                [Date.UTC(2015), 35100],
+                [Date.UTC(2017), 42100]
+            ]
         }]
     });
-  });
+});
