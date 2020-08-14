@@ -13,7 +13,7 @@ $(function () {
             thousandsSep: ','
         },
         credits: {
-            enabled: false,
+            enabled: true,
             text: 'U.S. Deparmentt of Justice, OJJDP',
             href: 'https://www.ojjdp.gov/ojstatbb/special_topics/qa11502.asp?qaDate=2018',
             position: {

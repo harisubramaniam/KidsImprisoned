@@ -8,6 +8,9 @@
 .highcharts-container svg {
     overflow: visible !important;
 } */
+.highcharts-background {
+    fill: #FAF4E1;
+}
 
 .highcharts-title {
     font-family: 'Montserrat', sans-serif;
@@ -44,13 +47,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 .graphics-subhed {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    text-align: center;
+    font-size: .90rem;
+    text-align: left;
     line-height: 1.5;
 }
 .graphics-legend {
@@ -60,7 +63,7 @@
 .graphics-source {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 0.65rem !important;
+    font-size: 0.75rem !important;
 }
 .ki-graphic{
 	display: block;
@@ -69,10 +72,19 @@
 	max-width: 750px;
 	margin: 0 auto;
 }
+.map-graphic {
+    height: 600px !important;
+    min-width: 310px !important;
+    max-width: 685px !important;
+    margin: 0 auto !important;
+}
 container {
     border: blue 1px solid;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+body {
+    background-color: #FAF4E1 !important;
 }
 a {
     color: #2F313B;

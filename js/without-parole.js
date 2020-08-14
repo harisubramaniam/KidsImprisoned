@@ -42,8 +42,22 @@ $(function () {
 
             plotOptions: {
                 series: {
+                    events: {
+                        legendItemClick: function () {
+                            return false;
+                        }
+                    },
+                    allowPointSelect: false,
                     enableMouseTracking: false
                 }
+            },
+
+            legend: {
+                layout: 'vertical',
+                align: 'bottom',
+                y: 20,
+                x: 150,
+                borderWidth: 0
             },
 
             mapNavigation: {
@@ -55,26 +69,25 @@ $(function () {
 
             colorAxis: {
                 dataClasses: [{
-                    name: 'Test One',
+                    name: 'JLWOP is an option, but no youth serving a life sentence',
                     from: 1,
                     to: 1,
                     color: {
-                        patternIndex: 1
+                        patternIndex: 3
                     }
-                    // color: 'url(#highcharts-default-pattern-8)'
                     // color: 'rgba(216, 66, 38, .2)'
                 }, {
-                    name: 'Test Two',
+                    name: 'JLWOP is an option, youth are serving life sentences',
                     from: 2,
                     to: 2,
                     color: 'rgba(216, 66, 38, .8)'
                 }, {
-                    name: 'Test Three',
+                    name: 'JLWOP is banned, no youth serving a life sentence',
                     from: 3,
                     to: 3,
                     // color: 'rgba(171, 170, 167, .8)'
                     color: {
-                        patternIndex: 3,
+                        patternIndex: 1,
                         fillColor: {
                             pattern: {
                                 color: '#33ff66'
@@ -83,10 +96,9 @@ $(function () {
                     },
                     
                 }, {
-                    name: 'Test Four',
+                    name: 'JLWOP is banned, but there are youth serving a life sentence ',
                     from: 4,
                     to: 4,
-                    // color: 'rgba(171, 170, 167, .2)'
                     color: 'rgba(47, 49, 59, .8)'
                 }]
             },

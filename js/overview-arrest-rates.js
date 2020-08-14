@@ -25,8 +25,8 @@ $(function () {
                 enabled: false
             },
             chart: {
-                backgroundColor: '#EFEEE8',
-                marginTop: 0,
+                backgroundColor: '#FAF4E1',
+                marginTop: 10,
                 marginBottom: 0
             },
             title : {
@@ -37,7 +37,8 @@ $(function () {
             },
             subtitle: {
                 text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
-                floating: false
+                align: 'left',
+                floating: true
             },
             mapNavigation: {
                 enabled: false,
@@ -115,7 +116,7 @@ $(function () {
                     enabled: false
                 },
                 chart: {
-                    backgroundColor: '#EFEEE8',
+                    backgroundColor: '#FAF4E1',
                     marginTop: 0,
                     marginBottom: 0
                 },
@@ -205,7 +206,7 @@ $(function () {
                     enabled: false
                 },
                 chart: {
-                    backgroundColor: '#EFEEE8',
+                    backgroundColor: '#FAF4E1',
                     marginTop: 0,
                     marginBottom: 0
                 },
