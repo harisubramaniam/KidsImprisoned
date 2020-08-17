@@ -25,19 +25,25 @@ $(function () {
                 enabled: false
             },
             chart: {
-                backgroundColor: '#EFEEE8',
-                marginTop: 0,
+                backgroundColor: '#FAF4E1',
                 marginBottom: 0
             },
             title : {
                 text : 'The Spread of Automatic Transfer Laws from Pre-1970\'s to 2000',
+                style: {
+                    fontWeight: 'bold'
+                },
+                x: 10,
                 floating: false,
                 verticalAlign: 'top',
                 margin: 0
             },
             subtitle: {
                 text: 'Automatic transfer laws, often called statutory exlusion, were adopted by majority of the states by 2000, sending youth to the adult system without a hearing.',
-                floating: false
+                align: 'left',
+                floating: false,
+                x: 50,
+                margin: 5
             },
             mapNavigation: {
                 enabled: false,
@@ -95,19 +101,25 @@ $(function () {
                     enabled: false
                 },
                 chart: {
-                    backgroundColor: '#EFEEE8',
-                    marginTop: 0,
+                    backgroundColor: '#FAF4E1',
                     marginBottom: 0
                 },
                 title : {
                     text : 'The Spread of Automatic Transfer Laws from Pre-1970\'s to 2000',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 10,
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'Automatic transfer laws, often called statutory exlusion, were adopted by majority of the states by 2000, sending youth to the adult system without a hearing.',
-                    floating: false
+                    align: 'left',
+                    floating: false,
+                    x: 50,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,
@@ -166,19 +178,25 @@ $(function () {
                     enabled: false
                 },
                 chart: {
-                    backgroundColor: '#EFEEE8',
-                    marginTop: 0,
+                    backgroundColor: '#FAF4E1',
                     marginBottom: 0
                 },
                 title : {
                     text : 'The Spread of Automatic Transfer Laws from Pre-1970\'s to 2000',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 10,
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'Automatic transfer laws, often called statutory exlusion, were adopted by majority of the states by 2000, sending youth to the adult system without a hearing.',
-                    floating: false
+                    align: 'left',
+                    floating: false,
+                    x: 50,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,
@@ -237,19 +255,25 @@ $(function () {
                     enabled: false
                 },
                 chart: {
-                    backgroundColor: '#EFEEE8',
-                    marginTop: 0,
+                    backgroundColor: '#FAF4E1',
                     marginBottom: 0
                 },
                 title : {
                     text : 'The Spread of Automatic Transfer Laws from Pre-1970\'s to 2000',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 10,
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'Automatic transfer laws, often called statutory exlusion, were adopted by majority of the states by 2000, sending youth to the adult system without a hearing.',
-                    floating: false
+                    align: 'left',
+                    floating: false,
+                    x: 50,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,

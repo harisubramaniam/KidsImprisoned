@@ -31,9 +31,8 @@ $(function () {
         title: {
             style: {
                 fontFamily: 'Montserrat',
-                fontWeight: '400',
+                fontWeight: 'bold',
                 fontSize: '1.30rem'
-                // fontWeight: 'normal'
             },
             text: 'Juvenile arrest rates (per 100,000) by race, 1998-2018',
             x: -20 //center
@@ -42,9 +41,8 @@ $(function () {
             useHTML: true,
             style: {
                 fontFamily: 'Montserrat',
-                fontWeight: '300',
+                fontWeight: '400',
                 fontSize: '90%'
-                // fontWeight: 'normal'
             },
             align: 'center',
             text: 'Minority youth are arrested at higher rates than white youth, data shows. <br>&#42;&#42;No data available to represent Hispanic youth.'

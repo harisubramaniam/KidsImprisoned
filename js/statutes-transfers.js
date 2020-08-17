@@ -26,18 +26,24 @@ $(function () {
             },
             chart: {
                 backgroundColor: '#EFEEE8',
-                marginTop: 0,
                 marginBottom: 0
             },
             title : {
                 text : 'Different Types of Transfer Across the Country in 2016',
+                style: {
+                    fontWeight: 'bold'
+                },
                 floating: false,
+                x: 10,
                 verticalAlign: 'top',
                 margin: 0
             },
             subtitle: {
                 text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                floating: false
+                align: 'left',
+                floating: false,
+                x: 50,
+                margin: 5
             },
             mapNavigation: {
                 enabled: false,
@@ -96,18 +102,24 @@ $(function () {
                 },
                 chart: {
                     backgroundColor: '#EFEEE8',
-                    marginTop: 0,
                     marginBottom: 0
                 },
                 title : {
                     text : 'Different Types of Transfer Across the Country in 2016',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 10,
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                    floating: false
+                    align: 'left',
+                    floating: false,
+                    x: 50,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,
@@ -167,18 +179,24 @@ $(function () {
                 },
                 chart: {
                     backgroundColor: '#EFEEE8',
-                    marginTop: 0,
                     marginBottom: 0
                 },
                 title : {
                     text : 'Different Types of Transfer Across the Country in 2016',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 10,
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                    floating: false
+                    align: 'left',
+                    floating: false,
+                    x: 50,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,
@@ -238,18 +256,24 @@ $(function () {
                 },
                 chart: {
                     backgroundColor: '#EFEEE8',
-                    marginTop: 0,
                     marginBottom: 0
                 },
                 title : {
                     text : 'Different Types of Transfer Across the Country in 2016',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 10,
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                    floating: false
+                    align: 'left',
+                    floating: false,
+                    x: 50,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,

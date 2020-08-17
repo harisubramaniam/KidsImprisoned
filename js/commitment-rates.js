@@ -31,9 +31,8 @@ $(function () {
         title: {
             style: {
                 fontFamily: 'Montserrat',
-                fontWeight: '400',
+                fontWeight: 'bold',
                 fontSize: '1.40rem'
-                // fontWeight: 'normal'
             },
             text: 'Juvenile commitment rates by race/ethnicity, 1997-2017',
             // x: -20 //center
@@ -43,7 +42,6 @@ $(function () {
                 fontFamily: 'Montserrat',
                 fontWeight: '300',
                 fontSize: '90%'
-                // fontWeight: 'normal'
             },
             align: 'center',
             text: 'Minority youth are more likely to be committed to a facility as a result of a court ordered disposition compared to white youth'

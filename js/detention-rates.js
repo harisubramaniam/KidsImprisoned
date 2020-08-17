@@ -31,9 +31,8 @@ $(function () {
         title: {
             style: {
                 fontFamily: 'Montserrat',
-                fontWeight: '400',
+                fontWeight: 'bold',
                 fontSize: '1.40rem'
-                // fontWeight: 'normal'
             },
             text: 'Juvenile detention rates by race/ethnicity, 1997-2017',
             // x: -20 //center
@@ -44,7 +43,6 @@ $(function () {
                 fontFamily: 'Montserrat',
                 fontWeight: '300',
                 fontSize: '75%'
-                // fontWeight: 'normal'
             },
             align: 'center',
             text: 'Minority youth are more likely to be detained while waiting for their cases to be processed. <br>&#42;&#42;Minority group includes black, Hispanic, American Indian/Alaskan Native, Asian/Pacific Islander youth, <br>and those identified as other race.'

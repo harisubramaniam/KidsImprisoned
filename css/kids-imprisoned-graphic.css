@@ -56,6 +56,12 @@
     text-align: left;
     line-height: 1.5;
 }
+.graphics-short-subhed {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .90rem;
+    text-align: center;
+    line-height: 1.5;
+}
 .graphics-legend {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.75rem;
@@ -64,6 +70,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 0.75rem !important;
+    padding-top: 10px;
 }
 .ki-graphic{
 	display: block;

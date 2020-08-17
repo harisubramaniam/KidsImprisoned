@@ -31,9 +31,8 @@ $(function () {
         title: {
             style: {
                 fontFamily: 'Montserrat',
-                fontWeight: '400',
+                fontWeight: 'bold',
                 fontSize: '1.1rem'
-                // fontWeight: 'normal'
             },
             text: 'Juvenile residential placement rates by race/ethnicity, 1997-2017',
             x: -10 //center
@@ -43,7 +42,6 @@ $(function () {
                 fontFamily: 'Montserrat',
                 fontWeight: '300',
                 fontSize: '90%'
-                // fontWeight: 'normal'
             },
             align: 'center',
             x: 10,

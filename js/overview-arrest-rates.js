@@ -26,11 +26,13 @@ $(function () {
             },
             chart: {
                 backgroundColor: '#FAF4E1',
-                marginTop: 10,
                 marginBottom: 0
             },
             title : {
                 text : '2018 Juvenile Arrest Rates per 100,000',
+                style: {
+                    fontWeight: 'bold'
+                },
                 floating: false,
                 verticalAlign: 'top',
                 margin: 0
@@ -38,7 +40,9 @@ $(function () {
             subtitle: {
                 text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
                 align: 'left',
-                floating: true
+                floating: false,
+                x: 50,
+                margin: 5
             },
             mapNavigation: {
                 enabled: false,
@@ -117,18 +121,23 @@ $(function () {
                 },
                 chart: {
                     backgroundColor: '#FAF4E1',
-                    marginTop: 0,
                     marginBottom: 0
                 },
                 title : {
                     text : '2018 Juvenile Arrest Rates per 100,000',
+                    style: {
+                        fontWeight: 'bold'
+                    },
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
-                    floating: false
+                    align: 'left',
+                    x: 50,
+                    floating: false,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,
@@ -207,18 +216,23 @@ $(function () {
                 },
                 chart: {
                     backgroundColor: '#FAF4E1',
-                    marginTop: 0,
                     marginBottom: 0
                 },
                 title : {
                     text : '2017 Juvenile Detention Rates per 100,000',
+                    style: {
+                        fontWeight: 'bold'
+                    },
                     floating: false,
                     verticalAlign: 'top',
                     margin: 0
                 },
                 subtitle: {
                     text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
-                    floating: false
+                    align: 'left',
+                    x: 50,
+                    floating: false,
+                    margin: 5
                 },
                 mapNavigation: {
                     enabled: false,
