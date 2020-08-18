@@ -16,6 +16,9 @@ $(function () {
             enabled: true,
             text: 'U.S. Department of Justice, OJJDP',
             href: 'javascript:window.open("https://www.ojjdp.gov/ojstatbb/special_topics/qa11803.asp?qaDate=2017", "_blank")',
+            style: {
+                fontSize: '12px'
+            },
             position: {
                 x: 10,
                 align: 'left',
