@@ -123,7 +123,7 @@ $(function () {
                 },
                 dataLabels: {
                     allowOverlap: true,
-                    enabled: true,
+                    enabled: false,
                     formatter: function(){
                         if(this.key === "District of Columbia")
                             return this.key;

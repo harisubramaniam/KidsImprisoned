@@ -29,10 +29,7 @@ $(function (){
         },
 
         legend: {
-            // enabled: false
-            floating: false,
-            verticalAlign: 'bottom',
-            y: 20
+            enabled: false
         },
 
         title: {

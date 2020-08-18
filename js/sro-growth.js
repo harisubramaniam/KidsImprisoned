@@ -25,7 +25,6 @@ Highcharts.setOptions({
         style: {
             fontFamily: 'Montserrat'
         },
-        // backgroundColor: '#EFEEE8'
     },
     lang: {
         thousandsSep: ','
@@ -64,7 +63,6 @@ $('#container').highcharts({
         startOnTick: true,
         dateTimeLabelFormats: {
             year: '%Y'
-
         }
     },
 

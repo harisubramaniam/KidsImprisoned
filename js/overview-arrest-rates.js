@@ -39,9 +39,9 @@ $(function () {
             },
             subtitle: {
                 text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
-                align: 'left',
+                align: 'center',
                 floating: false,
-                x: 50,
+                x: 5,
                 margin: 5
             },
             mapNavigation: {
@@ -134,8 +134,8 @@ $(function () {
                 },
                 subtitle: {
                     text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
-                    align: 'left',
-                    x: 50,
+                    align: 'center',
+                    x: 5,
                     floating: false,
                     margin: 5
                 },
@@ -229,8 +229,8 @@ $(function () {
                 },
                 subtitle: {
                     text: 'The U.S. has no centralized national juvenile justice system. Instead, states create and regulate local juvenile systems, resulting in vast variation across the country. The rate at which juveniles are arrested and detained varies greatly from state to state.',
-                    align: 'left',
-                    x: 50,
+                    align: 'center',
+                    x: 5,
                     floating: false,
                     margin: 5
                 },

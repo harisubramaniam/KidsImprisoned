@@ -37,6 +37,10 @@ Highcharts.chart('container', {
         type: 'column',
         spacingLeft: 0
     },
+
+    legend: {
+        enabled: false
+    },
     
     credits: {
         text: '',

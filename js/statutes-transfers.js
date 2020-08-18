@@ -40,9 +40,9 @@ $(function () {
             },
             subtitle: {
                 text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                align: 'left',
+                align: 'center',
                 floating: false,
-                x: 50,
+                x: 5,
                 margin: 5
             },
             mapNavigation: {
@@ -116,9 +116,9 @@ $(function () {
                 },
                 subtitle: {
                     text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                    align: 'left',
+                    align: 'center',
                     floating: false,
-                    x: 50,
+                    x: 5,
                     margin: 5
                 },
                 mapNavigation: {
@@ -193,9 +193,9 @@ $(function () {
                 },
                 subtitle: {
                     text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                    align: 'left',
+                    align: 'center',
                     floating: false,
-                    x: 50,
+                    x: 5,
                     margin: 5
                 },
                 mapNavigation: {
@@ -270,9 +270,9 @@ $(function () {
                 },
                 subtitle: {
                     text: 'The three main types of transfer options—judicial, prosecutorial and automatic—vary by state. This map is accurate as of 2016, some states have changed their laws since then.',
-                    align: 'left',
+                    align: 'center',
                     floating: false,
-                    x: 50,
+                    x: 5,
                     margin: 5
                 },
                 mapNavigation: {

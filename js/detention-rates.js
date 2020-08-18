@@ -14,8 +14,8 @@ $(function () {
         },
         credits: {
             enabled: true,
-            text: 'U.S. Deparmentt of Justice, OJJDP',
-            href: 'https://www.ojjdp.gov/ojstatbb/special_topics/qa11802.asp?qaDate=2017',
+            text: 'U.S. Department of Justice, OJJDP',
+            href: 'javascript:window.open("https://www.ojjdp.gov/ojstatbb/special_topics/qa11802.asp?qaDate=2017", "_blank")',
             position: {
                 x: 10,
                 align: 'left',
