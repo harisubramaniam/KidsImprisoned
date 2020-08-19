@@ -25,7 +25,7 @@ $(function () {
         {
             "state_name": "California",
             "hc-key": "us-ca",
-            "value": 123
+            "value": 141
         },
         {
             "state_name": "Colorado",
@@ -35,12 +35,12 @@ $(function () {
         {
             "state_name": "Connecticut",
             "hc-key": "us-ct",
-            "value": 9
+            "value": 10
         },
         {
             "state_name": "Washington D.C.",
             "hc-key": "us-dc",
-            "value": 10
+            "value": 15
         },
         {
             "state_name": "Delaware",
@@ -50,12 +50,12 @@ $(function () {
         {
             "state_name": "Florida",
             "hc-key": "us-fl",
-            "value": 311
+            "value": 313
         },
         {
             "state_name": "Georgia",
             "hc-key": "us-ga",
-            "value": 71
+            "value": 69
         },
         {
             "state_name": "Hawaii",
@@ -75,7 +75,7 @@ $(function () {
         {
             "state_name": "Illinois",
             "hc-key": "us-il",
-            "value": 44
+            "value": 58
         },
         {
             "state_name": "Indiana",
@@ -105,7 +105,7 @@ $(function () {
         {
             "state_name": "Maryland",
             "hc-key": "us-md",
-            "value": 42
+            "value": 43
         },
         {
             "state_name": "Maine",
@@ -205,7 +205,7 @@ $(function () {
         {
             "state_name": "South Carolina",
             "hc-key": "us-sc",
-            "value": 20
+            "value": 30
         },
         {
             "state_name": "South Dakota",
@@ -215,12 +215,12 @@ $(function () {
         {
             "state_name": "Tennessee",
             "hc-key": "us-tn",
-            "value": 117
+            "value": 142
         },
         {
             "state_name": "Texas",
             "hc-key": "us-tx",
-            "value": 261
+            "value": 263
         },
         {
             "state_name": "Utah",
@@ -230,7 +230,7 @@ $(function () {
         {
             "state_name": "Virginia",
             "hc-key": "us-va",
-            "value": 37
+            "value": 38
         },
         {
             "state_name": "Vermont",
